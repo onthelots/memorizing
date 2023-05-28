@@ -7,75 +7,88 @@
 
 <br>
 
-## 앱 소개
+## 1. 프로젝트 개요
+### 1-1. ADS (App Define Statement)
+`🫨 이루고 싶은 성과나 목표를 포기하지 마세요. 과학적인 암기로직을 통해 효율적인 학습을 도와드릴게요 📖`
+
+<br>
+
+### 1-2. Persona
 `🔎 어렵고 지루한 암기, 정답은 타이밍과 반복학습!`
->📝 중간고사가 코앞으로 다가왔는데, 하루만 시간이 더 있었으면..  
->🤷🏻‍♂️ 가까스로 어려운 단어를 암기했는데, 일주일만 지나도 기억이 흐릿해!  
->📗 지하철에서 영단어 공부를 하고 싶은데, 책을 들고다니긴 불편해..
-
-#### 학습한 내용을 완벽히 암기하고 싶은데, 마음대로 쉽지 않습니다.
+>📝 중학생 : 중간고사가 코앞으로 다가왔는데, 하루만 시간이 더 있었으면..  
+>🤷🏻‍♂️ 취준생 : 가까스로 어려운 단어를 암기했는데, 일주일만 지나도 기억이 흐릿해!  
+>📗 직장인 : 지하철에서 영단어 공부를 하고 싶은데, 책을 들고다니긴 불편해..
 
 <br>
 
-`❓혹시, 에빙하우스의 📈 망각곡선 이론에 대해 들어 보셨나요?`
-
->망각곡선(forgetting curve)이란, 시간이 흐를수록 학습한 내용을 잊는 속도를 나타낸 그래프입니다.  
->심리학자 에빙하우스(Ebbinghaus, 1885)는 모두가 겪고있는 문제인 ‘망각’에 대한 문제를 극복하기 위해  
->규칙적이고 반복적인 학습 루틴을 해결책으로 제시합니다.
-
-#### 혹시, 잘못된 암기습관 때문에 여전히 고민이신가요?  
-#### 그렇다면, 당신이 선택해야 할 암기장 앱은 바로 Memorizing 입니다!
+### 1-3. 아이디어 구상
 
 <br>
 
-## 📚 실행 가이드 및 설치 방법(How to build)
-### 설치/실행 방법
-* ❗️❗️아래 1가지 파일은 필수 파일임으로 실행이 필요할 시 jincode93@gmail.com을 통해 파일을 요청해주세요.
-```
-- Info.plist           // KAKAO_APP_KEY
-```
+`효율적인 암기방식에 대한 과학적으로 증명된 자료 수집 및 앱 내 구현 가능성 파악`
+ >에빙하우스 망각곡선(forgetting curve) 이론을 바탕으로 암기방식 구체화  
+ >망각에 대한 문제를 극복하기 위한 총 **4단계의 반복적인 학습루틴**을 해결책으로 제시
 
-<br>
-<details>
-<summary>1. 개별적으로 Firebase 세팅을 진행해주세요.</summary>
-<div markdown="1">
-
-```
-* Memorizing 번들 ID: com.codelion.Memorizing
-```
-
-</div>
-</details>
-
-<details>
-<summary>2. Firebase에서 Firestore Database, Storage를 설정해주세요.</summary>
-<div markdown="1">
-
-```
-* 보안 규칙을 `테스트 모드에서 시작`으로 설정해주세요
-```
-
-</div>
-</details>
+`암기장 생성과 학습 이외, 타인과 함께 유용한 암기지식을 공유할 수 있는 마켓기능 구상`
+ >단순한 암기학습에서 나아가, 나만의 단어장을 **2차 산출물로 공유**할 수 있도록 아이디어 제시  
+ >마켓 및 포인트 기능을 도입함으로서 사용자 중심의 **활발한 앱 생태계 구축** 도모
 
 <br>
 
-## 프로젝트 특징
-`💡암기가 쉬워지는 반복학습, 타인과 함께 공유하는 단어장 마켓`
+### 1-4. 주요성과 
+🏅`멋쟁이 사자처럼 앱스쿨 1기 해커톤(23.01.06) : 최우수상 수상`
 
-### 과학적이고 신뢰있는 방식을 통해 효율적인 암기를 도와드릴게요!
->**규칙적으로 암기학습을 진행할 수 있도록 총 4단계의 학습루틴을 지원합니다.**  
-1차 학습 ➔ 1차 복습(20min) ➔ 2차 복습(1hr) ➔ 3차 복습(1day) 
+<br>
 
+## 2. 추진과정 및 주요기능
+
+### 2-1. 기능별 팀구성 및 추진과정
+
+#### 팀 구성 (8인)
+- Front(4인) - View별 필요기능 구현
+- Back(3인) - Server DB 생성 및 데이터 구조 작업
+- Design(2인) - View별 레이아웃 설정, 앱 아이콘, Main Theme Color 등
+
+#### 세부 추진과정 
+`해커톤(1일)`
+   - 앱 아이디어 브레인 스토밍 ➟ ADS 및 페르소나 설정 ➟ 역할별 팀 구성 ➟ 최종 목표설정 ➟ 최소한의 UI 및 기능구현
+
+`프로젝트(4주)`
+  - UIScreen을 통한 디바이스 별 레이아웃 통일 외 View별 기능강화, Server 사용량 감축, 디자인 및 홍보물 제작
+
+#### 앱 출시 및 사후관리(진행중)
+  - 2022.02.06 / Apple Store 등록 (ver1.0)
+  - 2022.02.11 / 로그인 및 Server fetch 버그 수정 (ver1.0.1)
+  - 2022.02.13 / System Font, 일부 디바이스 별 레이아웃 문제 해결 (ver1.0.2)
+        
+
+### 2-2. 담당 기능 및 역할
+`암기장 작성 및 수정 - CRUD 기능 구현`
+  - 암기장 생성(카테고리, 제목 외) 및 삭제
+  - 단어(word) 추가, 단어 리스트 확인 (UIWindowScene, UITapGestureRecognizer 활용, 사용자 친화적 UI/UX 도모)
+  - Server와 연동되지 않는 Local Data -> CoreData로의 데이터 구조 전환
+
+`공식 페이지 제작(Notion)`
+  - 소개 페이지 전반에 걸친 소개글 작성, 디자인 개선
+  - 이용약관 및 개인정보 처리방침 작성, 고지
+
+
+
+### 2-3. 주요기능
+
+#### 과학적이고 신뢰있는 방식을 통해 효율적인 암기기능 구현
+- 암기곡선에 따른 학습 실패경험을 타파하고자, 규칙적인 `4단계 학습 루틴`을 제공
+- 복습 시간에 맞게 `주기적인 알림(Local Notification)`을 발송함
+    
 |<img src="https://user-images.githubusercontent.com/107039500/217727221-68055c6a-a421-492e-ab0d-dfbf99fd44a1.png"></img>|<img src="https://user-images.githubusercontent.com/107039500/217727242-6c92ac9d-2397-4601-8142-e42a6895c9a3.png"></img>|<img src="https://user-images.githubusercontent.com/107039500/217727247-05dd98aa-d45b-4fce-b2dc-b4706aeeca9f.png"></img>|
 |:-:|:-:|:-:|
 |`나의 단어장`|`학습화면`|`복습알림`|
 
 <br>
 
-### 단순한 영단어 암기 No! 기초상식부터 속담, 한국사 등 다양한 유형의 암기를 지원해요!
->**Memorizing은 영단어 뿐만이 아닌, 사용자가 원하시는 모든 유형의 암기장을 생성하고, 학습합니다.**  
-시사, 상식, IT, 한국사, 수학공식 부터 자주 잊어버리기 쉬운 모든 것들을 자유롭게 암기할 수 있습니다.
+#### 단순한 영단어 암기 No! 기초상식부터 속담, 한국사 등 다양한 유형의 암기를 지원
+- 시사, 상식, IT, 한국사, 수학공식 부터 자주 잊어버리기 쉬운 모든 것들을 자유롭게 암기
+- 사용자의 동기부여를 위해, 학습 완료 시 `스탬프`를 제공, 동기부여를 강화함
 
 |<img src="https://user-images.githubusercontent.com/107039500/217727233-1c8b3132-1db6-4211-85fd-299292176145.png"></img>|<img src="https://user-images.githubusercontent.com/107039500/217728556-741c396c-845a-41dd-8742-039087da6df0.png"></img>|<img src="https://user-images.githubusercontent.com/107039500/217728115-29ca0017-dbfe-4b02-8d2e-88a374edb494.png"></img>|
 |:-:|:-:|:-:|
@@ -83,9 +96,9 @@
 
 <br>
 
-### 암기장 마켓기능을 통해 나만의 단어장을 공유하고, 타인과 함께 성장할 기회를 드려요!
->**혼자만 알고있기 아까운 나만의 단어장을 마켓에 등록하고, 다른 사람들이 만든 단어장도 구매할 수 있습니다.**  
-학습을 완료한 내 단어장을 삭제하긴 아쉽지 않나요? 마켓에서 모든 사람들과 함께 주고받을 수 있습니다.
+#### 암기장 마켓기능을 통해 나만의 단어장을 공유하고, 타인과 함께 성장할 기회를 제공
+- 학습을 완료한 내 단어장을 `마켓 등록`하거나, 후기(리뷰) 작성 가능
+- `적립 포인트` 시스템을 활용, 유익한 암기장을 구매하고 학습하도록 유도함
 
 |<img src="https://user-images.githubusercontent.com/107039500/217727241-e310aec4-ed3b-4e84-9d74-12ba88fce932.png"></img>|<img src="https://user-images.githubusercontent.com/107039500/217727239-16a7dfdf-d605-4ec2-8102-605fdaf24f2e.png"></img>|<img src="https://user-images.githubusercontent.com/107039500/217727244-cfbf8a9c-c257-40a0-807e-4237b532b153.png"></img>|
 |:-:|:-:|:-:|
@@ -93,19 +106,25 @@
 
 <br>
 
-## 활용기술
+## 3. 자체 피드백 외 기타사항
+### 3-1. 프로젝트 과정 중 느낀점
+#### 긍정적인 부분
 
-#### Platforms
+`앱이 필요로 하는 필수 기능(Front 및 Server 구축)을 단기간 내 구축할 수 있었던 좋은 기회`
+  - 기획단계에서부터 주어진 시간 내 실현 가능한 소위의 ‘작업의 파이’를 설정하는 단계가 주요했음
+  - 이는, 팀원간의 소통과 의논과정에서 나온 의견들을 ‘기록’하고 ‘실천’하는 과정이 큰 도움이 됨
 
-<img src="https://img.shields.io/badge/iOS-5A29E4?style=flat&logo=iOS&logoColor=white"/>  
-    
-#### Language & Tools
+`다양한 프로젝트 아키텍쳐를 활용, 기존에 작업했던 앱보다 높은 퀄리티와 완성도의 앱을 구현`
+  - Apple, Kakaotalk, Google 등 다양한 SNS 로그인 기능을 구현함
+  - 특히, 과도하게 높은 Server 사용량을 줄이기 위해, `CoreData`를 도입, 최소 10%의 감소를 이뤄냄
+  - 2월 Server DB 사용량(CoreData 적용 후, 미 출시 기간보다 이후 기간에 사용한 사용량이 현저히 적어짐)
+  #### ![Untitled](https://github.com/onthelots/Projects/assets/107039500/bf38c01b-f01d-4f68-bf32-2f3b98478114)
 
-<img src="https://img.shields.io/badge/Xcode-147EFB?style=flat&logo=Xcode&logoColor=white"/> <img src="https://img.shields.io/badge/SwiftUI-2396F3?style=flat&logo=Swift&logoColor=white"/> <img src="https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white"/>
- 
 <br>
 
-## 개발환경
+### 3-2. 개발환경 및 라이센스
+
+#### 개발환경
 
 iOS 16.0 이상
 iPhone 14 Pro에서 최적화됨
@@ -113,7 +132,7 @@ iPhone 14 Pro에서 최적화됨
 
 <br>
 
-## 라이센스
+#### 라이센스
 
 Apache License
 Version 2.0 (January 2004)  
@@ -121,7 +140,21 @@ http://www.apache.org/licenses/
 
 <br>
 
-## 프로젝트 참여자
+### 3-3. 활용기술 
+#### 활용기술
+
+Platforms
+
+<img src="https://img.shields.io/badge/iOS-5A29E4?style=flat&logo=iOS&logoColor=white"/>  
+    
+Language & Tools
+
+<img src="https://img.shields.io/badge/Xcode-147EFB?style=flat&logo=Xcode&logoColor=white"/> <img src="https://img.shields.io/badge/SwiftUI-2396F3?style=flat&logo=Swift&logoColor=white"/> <img src="https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white"/>
+ 
+<br>
+
+### 3-4. 프로젝트 참여자
+#### 프로젝트 참여자
 |  염성필  <br/>[@strongyeom](https://github.com/strongyeom) | 진준호 <br/> [@jincode93](https://github.com/jincode93) | 이종현 <br/> [@JongHyunLee84](https://github.com/JongHyunLee84) |  진태영 <br/>[@elisha0103](https://github.com/elisha0103) |
 | :----------------------------------------------------------: | :---------------------------------------------: | :------: | :-------------------------------------------------: |
 |<img src="https://avatars.githubusercontent.com/u/101084872?v=4" width=200> | <img src="https://avatars.githubusercontent.com/u/111134273?v=4" width=200> | <img src="https://avatars.githubusercontent.com/u/112399028?v=4" width=200>  | <img src="https://avatars.githubusercontent.com/u/41459466?v=4" width=200> |
